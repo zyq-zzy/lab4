@@ -1,0 +1,28 @@
+/* pages/multiplayerWait/multiplayerWait.wxss */
+page{
+    background-image: url("https://s3.bmp.ovh/imgs/2021/10/f66fc3c039f317b6.png");
+    background-size: 750rpx 1470rpx;
+}
+#font{
+    display: block;
+    margin: auto auto;
+    margin-top: 40rpx;
+    width: 392rpx;
+    height: 110rpx;
+}
+#rrr{
+    margin: auto auto;
+    margin-top: 370rpx;
+    font-size: 60rpx;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(255, 231, 0);
+}
+#ppp{
+    margin: auto auto;
+    margin-top: 100rpx;
+    font-size: 60rpx;
+    text-align: center;
+    font-weight: 500;
+    color: rgb(255, 231, 0);
+}

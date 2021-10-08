@@ -1,0 +1,8 @@
+<!--pages/room/room.wxml-->
+<image src="https://s3.bmp.ovh/imgs/2021/10/bfa5251d5f3bc9ab.png" id="font"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/860b4cea40e37a56.png" id="ooo"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/7410007ccfa8df41.png" id="rrr" bindtap="toHome"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/96453c6c9263e95e.png" id="sss" bindtap="toEnterRoom"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/03d7719c4012d212.png" id="mmm" bindtap="toCreateRoom"></image>
+
+

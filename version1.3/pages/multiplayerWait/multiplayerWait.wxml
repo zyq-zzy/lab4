@@ -1,0 +1,5 @@
+<!--pages/multiplayerWait/multiplayerWait.wxml-->
+<image src="https://s3.bmp.ovh/imgs/2021/10/bfa5251d5f3bc9ab.png" id="font"></image>
+<view id="rrr">房间号：000000</view>
+<view id="ppp">准备人数：？人</view>
+<view id="ppp">等待房主开始</view>

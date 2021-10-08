@@ -1,0 +1,6 @@
+<!--pages/enterRoom/enterRoom.wxml-->
+<image src="https://s3.bmp.ovh/imgs/2021/10/bfa5251d5f3bc9ab.png" id="font"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/6bd8fa1f591bc4c3.png" id="fff"></image>
+<input type="text" id="iii" />
+<image src="https://s3.bmp.ovh/imgs/2021/10/e468a017551e70af.png" id="sss" bindtap="toMultiplayerWait"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/63a6e74749ed161f.png" id="bbb" bindtap="toRoom"></image>

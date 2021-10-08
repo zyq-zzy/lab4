@@ -1,0 +1,5 @@
+<!--pages/animationSolo/animationSolo.wxml-->
+<image src="https://s3.bmp.ovh/imgs/2021/10/f2d168d978664fe1.png" id="font"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/4342ed7c1ea4589b.gif" id="ggg"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/6234baa33802efe8.png" id="bbb" bindtap="toSettlementSolo"></image>
+

@@ -1,0 +1,43 @@
+/* pages/enterRoom/enterRoom.wxss */
+page{
+    background-image: url("https://s3.bmp.ovh/imgs/2021/10/f66fc3c039f317b6.png");
+    background-size: 750rpx 1470rpx;
+}
+#font{
+    display: block;
+    margin: auto auto;
+    margin-top: 40rpx;
+    width: 392rpx;
+    height: 110rpx;
+}
+#fff{
+    display: block;
+    margin: auto auto;
+    margin-top: 400rpx;
+    width: 336rpx;
+    height: 80rpx;
+}
+#iii{
+    display: block;
+    margin: auto auto;
+    margin-top: 63rpx;
+    width: 550rpx;
+    height: 110rpx;
+    border: 1rpx solid whitesmoke;
+    background:rgb(85, 83, 83,0.38);
+    border-radius: 30rpx;
+}
+#sss{
+    display: block;
+    margin: auto auto;
+    margin-top: 40rpx;
+    width: 212rpx;
+    height: 106rpx;
+}
+#bbb{
+    display: block;
+    margin: auto auto;
+    margin-top: 50rpx;
+    width: 212rpx;
+    height: 106rpx;
+}

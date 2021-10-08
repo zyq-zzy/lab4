@@ -1,0 +1,107 @@
+<!--pages/settlementSolo/settlementSolo.wxml-->
+<image src="https://s3.bmp.ovh/imgs/2021/10/f2d168d978664fe1.png" id="font"></image>
+<wxs module="m1">
+var award = function(q,w,e,r,t,y) {
+    var list=[];
+        list.push(q,w,e,r,t,y);
+    var count=[0,0,0,0,0,0];
+        for(var i=0;i<6;i++){
+        count[list[i]]=count[list[i]]+1;
+        }
+    if(count[4]==4&&count[1]==2){
+    return "状元（金花）";
+    }
+    else if(count[4]==6){
+        return "状元（六杯红）";
+    }
+    else if(count[1]==6){
+        return "状元（遍地锦）";
+    }
+    else if(count[2]==6||count[3]==6||count[5]==6||count[6]==6){
+        return "状元（六杯黑）";
+    }
+    else if(count[4]==5){
+        return "状元（五红）";
+    }
+    else if(count[1]==5||count[2]==5||count[3]==5||count[5]==5||count[6]==5){
+        return "状元（五子登科）";
+    }
+    else if(count[4]==4){
+        return "状元（四点红）";
+    }
+    else if(count[1]==1&&count[2]==1&&count[3]==1&&count[4]==1&&count[5]==1&&count[6]==1){
+        return "榜眼（对堂）";
+    }
+    else if(count[4]==3){
+        return "探花（三红）";
+    }
+    else if(count[1]==4||count[2]==4||count[3]==4||count[5]==4||count[6]==4){
+        return "进士（四进）";
+    }
+    else if(count[4]==2){
+        return "举人（二举）";
+    }
+    else if(count[4]==1){
+        return"秀才（一秀）";
+    }
+    else{
+        return"谢谢参与";
+    }  
+}
+
+module.exports.award = award;
+</wxs>
+<view bind="award">恭喜你获得了{{m1.award(q,w,e,r,t,y)}}</view> 
+<view id="six">
+<image wx:if="{{q==1}}" src="https://s3.bmp.ovh/imgs/2021/10/7ad37e59d3a4fd70.png"id="first"></image>
+<image wx:elif="{{q==2}}" src="https://s3.bmp.ovh/imgs/2021/10/6a33434f9b0218c1.png"id="first"></image>
+
+<image wx:elif="{{q==3}}" src="https://s3.bmp.ovh/imgs/2021/10/f0912fc6f6269bea.png"id="first"></image>
+<image wx:elif="{{q==4}}" src="https://s3.bmp.ovh/imgs/2021/10/7670a801af6294ba.png"id="first"></image>
+<image wx:elif="{{q==5}}" src="https://s3.bmp.ovh/imgs/2021/10/50048db16d30a3fd.png"id="first"></image>
+<image wx:else src="https://s3.bmp.ovh/imgs/2021/10/0a0a6ef594cfb40b.png"id="first"></image>
+
+<image wx:if="{{w==1}}" src="https://s3.bmp.ovh/imgs/2021/10/7ad37e59d3a4fd70.png"></image>
+<image wx:elif="{{w==2}}" src="https://s3.bmp.ovh/imgs/2021/10/6a33434f9b0218c1.png"></image>
+
+<image wx:elif="{{w==3}}" src="https://s3.bmp.ovh/imgs/2021/10/f0912fc6f6269bea.png"></image>
+<image wx:elif="{{w==4}}" src="https://s3.bmp.ovh/imgs/2021/10/7670a801af6294ba.png"></image>
+<image wx:elif="{{w==5}}" src="https://s3.bmp.ovh/imgs/2021/10/50048db16d30a3fd.png"></image>
+<image wx:else src="https://s3.bmp.ovh/imgs/2021/10/0a0a6ef594cfb40b.png"></image>
+
+<image wx:if="{{e==1}}" src="https://s3.bmp.ovh/imgs/2021/10/7ad37e59d3a4fd70.png"></image>
+<image wx:elif="{{e==2}}" src="https://s3.bmp.ovh/imgs/2021/10/6a33434f9b0218c1.png"></image>
+
+<image wx:elif="{{e==3}}" src="https://s3.bmp.ovh/imgs/2021/10/f0912fc6f6269bea.png"></image>
+<image wx:elif="{{e==4}}" src="https://s3.bmp.ovh/imgs/2021/10/7670a801af6294ba.png"></image>
+<image wx:elif="{{e==5}}" src="https://s3.bmp.ovh/imgs/2021/10/50048db16d30a3fd.png"></image>
+<image wx:else src="https://s3.bmp.ovh/imgs/2021/10/0a0a6ef594cfb40b.png"></image>
+
+<image wx:if="{{r==1}}" src="https://s3.bmp.ovh/imgs/2021/10/7ad37e59d3a4fd70.png"id="first"></image>
+<image wx:elif="{{r==2}}" src="https://s3.bmp.ovh/imgs/2021/10/6a33434f9b0218c1.png"id="first"></image>
+
+<image wx:elif="{{r==3}}" src="https://s3.bmp.ovh/imgs/2021/10/f0912fc6f6269bea.png"id="first"></image>
+<image wx:elif="{{r==4}}" src="https://s3.bmp.ovh/imgs/2021/10/7670a801af6294ba.png"id="first"></image>
+<image wx:elif="{{r==5}}" src="https://s3.bmp.ovh/imgs/2021/10/50048db16d30a3fd.png"id="first"></image>
+<image wx:else src="https://s3.bmp.ovh/imgs/2021/10/0a0a6ef594cfb40b.png"id="first"></image>
+
+<image wx:if="{{t==1}}" src="https://s3.bmp.ovh/imgs/2021/10/7ad37e59d3a4fd70.png"></image>
+<image wx:elif="{{t==2}}" src="https://s3.bmp.ovh/imgs/2021/10/6a33434f9b0218c1.png"></image>
+
+<image wx:elif="{{t==3}}" src="https://s3.bmp.ovh/imgs/2021/10/f0912fc6f6269bea.png"></image>
+<image wx:elif="{{t==4}}" src="https://s3.bmp.ovh/imgs/2021/10/7670a801af6294ba.png"></image>
+<image wx:elif="{{t==5}}" src="https://s3.bmp.ovh/imgs/2021/10/50048db16d30a3fd.png"></image>
+<image wx:else src="https://s3.bmp.ovh/imgs/2021/10/0a0a6ef594cfb40b.png"></image>
+
+<image wx:if="{{y==1}}" src="https://s3.bmp.ovh/imgs/2021/10/7ad37e59d3a4fd70.png"></image>
+<image wx:elif="{{y==2}}" src="https://s3.bmp.ovh/imgs/2021/10/6a33434f9b0218c1.png"></image>
+
+<image wx:elif="{{y==3}}" src="https://s3.bmp.ovh/imgs/2021/10/f0912fc6f6269bea.png"></image>
+<image wx:elif="{{y==4}}" src="https://s3.bmp.ovh/imgs/2021/10/7670a801af6294ba.png"></image>
+<image wx:elif="{{y==5}}" src="https://s3.bmp.ovh/imgs/2021/10/50048db16d30a3fd.png"></image>
+<image wx:else src="https://s3.bmp.ovh/imgs/2021/10/0a0a6ef594cfb40b.png"></image>
+</view>
+<image src="https://s3.bmp.ovh/imgs/2021/10/a9d572f5d56eb5e0.png" id="aaa" bindtap="toAnimationSolo"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/2af66d7240f55033.png" id="eee" bindtap="toHome"></image>
+
+

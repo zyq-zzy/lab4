@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/gameRules/gameRules",
+    "pages/room/room",
+    "pages/enterRoom/enterRoom",
+    "pages/createRoom/createRoom",
+    "pages/multiplayerWait/multiplayerWait",
+    "pages/solo/solo",
+    "pages/multiplayer/multiplayer",
+    "pages/animationSolo/animationSolo",
+    "pages/animationMulti/animationMulti",
+    "pages/settlementSolo/settlementSolo",
+    "pages/settlementMulti/settlementMulti",
+    "pages/standAlone/standAlone",
+    "pages/standAloneM/standAloneM",
+    "pages/animationMultiS/animationMultiS",
+    "pages/settlementMultiS/settlementMultiS"
+    
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "中秋博饼",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
