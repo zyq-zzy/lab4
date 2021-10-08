@@ -1,0 +1,6 @@
+<!--pages/createRoom/createRoom.wxml-->
+<image src="https://s3.bmp.ovh/imgs/2021/10/bfa5251d5f3bc9ab.png" id="font"></image>
+<view id="rrr">房间号：000000</view>
+<view id="ppp">准备人数：？人</view>
+<image src="https://pic.imgdb.cn/item/615afa142ab3f51d91047568.png" id="sss" bindtap="toMultiplayer"></image>
+<image src="https://pic.imgdb.cn/item/615afa4a2ab3f51d9104cac8.png" id="bbb" bindtap="toRoom"></image>

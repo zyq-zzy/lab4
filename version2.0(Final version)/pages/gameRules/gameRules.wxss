@@ -1,0 +1,13 @@
+/* pages/gameRules/gameRules.wxss */
+#rule{
+    display: block;
+    width: 750rpx;
+    height: 1300rpx;
+}
+#bton{
+    width: 750rpx;
+    height: 150rpx;
+    line-height: 90rpx;
+    background-color: rgb(224, 211, 21);
+    font-size: 60rpx;
+}

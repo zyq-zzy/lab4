@@ -1,0 +1,6 @@
+<!--pages/standAloneM/standAloneM.wxml-->
+<image src="https://s3.bmp.ovh/imgs/2021/10/f2d168d978664fe1.png" id="font"></image>
+<image src="https://pic.imgdb.cn/item/615affc82ab3f51d910d6c6c.png" id="fff"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/860b4cea40e37a56.png" id="ooo"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/5c04adef2313e795.png" id="sss" bindtap="toAnimationSolo"></image>
+
