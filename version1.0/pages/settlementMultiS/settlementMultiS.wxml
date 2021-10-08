@@ -1,0 +1,61 @@
+<!--pages/settlementMultiS/settlementMultiS.wxml-->
+<image src="https://s3.bmp.ovh/imgs/2021/10/f2d168d978664fe1.png" id="font"></image>
+<view id="ppp">{{id}}号玩家</view> 
+<view id="ccc">恭喜你获得了{{text}}</view> 
+<view id="six">
+<image wx:if="{{q==1}}" src="https://s3.bmp.ovh/imgs/2021/10/7ad37e59d3a4fd70.png"id="first"></image>
+<image wx:elif="{{q==2}}" src="https://s3.bmp.ovh/imgs/2021/10/6a33434f9b0218c1.png"id="first"></image>
+
+<image wx:elif="{{q==3}}" src="https://s3.bmp.ovh/imgs/2021/10/f0912fc6f6269bea.png"id="first"></image>
+<image wx:elif="{{q==4}}" src="https://s3.bmp.ovh/imgs/2021/10/7670a801af6294ba.png"id="first"></image>
+<image wx:elif="{{q==5}}" src="https://s3.bmp.ovh/imgs/2021/10/50048db16d30a3fd.png"id="first"></image>
+<image wx:else src="https://s3.bmp.ovh/imgs/2021/10/0a0a6ef594cfb40b.png"id="first"></image>
+
+<image wx:if="{{w==1}}" src="https://s3.bmp.ovh/imgs/2021/10/7ad37e59d3a4fd70.png"></image>
+<image wx:elif="{{w==2}}" src="https://s3.bmp.ovh/imgs/2021/10/6a33434f9b0218c1.png"></image>
+
+<image wx:elif="{{w==3}}" src="https://s3.bmp.ovh/imgs/2021/10/f0912fc6f6269bea.png"></image>
+<image wx:elif="{{w==4}}" src="https://s3.bmp.ovh/imgs/2021/10/7670a801af6294ba.png"></image>
+<image wx:elif="{{w==5}}" src="https://s3.bmp.ovh/imgs/2021/10/50048db16d30a3fd.png"></image>
+<image wx:else src="https://s3.bmp.ovh/imgs/2021/10/0a0a6ef594cfb40b.png"></image>
+
+<image wx:if="{{e==1}}" src="https://s3.bmp.ovh/imgs/2021/10/7ad37e59d3a4fd70.png"></image>
+<image wx:elif="{{e==2}}" src="https://s3.bmp.ovh/imgs/2021/10/6a33434f9b0218c1.png"></image>
+
+<image wx:elif="{{e==3}}" src="https://s3.bmp.ovh/imgs/2021/10/f0912fc6f6269bea.png"></image>
+<image wx:elif="{{e==4}}" src="https://s3.bmp.ovh/imgs/2021/10/7670a801af6294ba.png"></image>
+<image wx:elif="{{e==5}}" src="https://s3.bmp.ovh/imgs/2021/10/50048db16d30a3fd.png"></image>
+<image wx:else src="https://s3.bmp.ovh/imgs/2021/10/0a0a6ef594cfb40b.png"></image>
+
+<image wx:if="{{r==1}}" src="https://s3.bmp.ovh/imgs/2021/10/7ad37e59d3a4fd70.png"id="first"></image>
+<image wx:elif="{{r==2}}" src="https://s3.bmp.ovh/imgs/2021/10/6a33434f9b0218c1.png"id="first"></image>
+
+<image wx:elif="{{r==3}}" src="https://s3.bmp.ovh/imgs/2021/10/f0912fc6f6269bea.png"id="first"></image>
+<image wx:elif="{{r==4}}" src="https://s3.bmp.ovh/imgs/2021/10/7670a801af6294ba.png"id="first"></image>
+<image wx:elif="{{r==5}}" src="https://s3.bmp.ovh/imgs/2021/10/50048db16d30a3fd.png"id="first"></image>
+<image wx:else src="https://s3.bmp.ovh/imgs/2021/10/0a0a6ef594cfb40b.png"id="first"></image>
+
+<image wx:if="{{t==1}}" src="https://s3.bmp.ovh/imgs/2021/10/7ad37e59d3a4fd70.png"></image>
+<image wx:elif="{{t==2}}" src="https://s3.bmp.ovh/imgs/2021/10/6a33434f9b0218c1.png"></image>
+
+<image wx:elif="{{t==3}}" src="https://s3.bmp.ovh/imgs/2021/10/f0912fc6f6269bea.png"></image>
+<image wx:elif="{{t==4}}" src="https://s3.bmp.ovh/imgs/2021/10/7670a801af6294ba.png"></image>
+<image wx:elif="{{t==5}}" src="https://s3.bmp.ovh/imgs/2021/10/50048db16d30a3fd.png"></image>
+<image wx:else src="https://s3.bmp.ovh/imgs/2021/10/0a0a6ef594cfb40b.png"></image>
+
+<image wx:if="{{y==1}}" src="https://s3.bmp.ovh/imgs/2021/10/7ad37e59d3a4fd70.png"></image>
+<image wx:elif="{{y==2}}" src="https://s3.bmp.ovh/imgs/2021/10/6a33434f9b0218c1.png"></image>
+
+<image wx:elif="{{y==3}}" src="https://s3.bmp.ovh/imgs/2021/10/f0912fc6f6269bea.png"></image>
+<image wx:elif="{{y==4}}" src="https://s3.bmp.ovh/imgs/2021/10/7670a801af6294ba.png"></image>
+<image wx:elif="{{y==5}}" src="https://s3.bmp.ovh/imgs/2021/10/50048db16d30a3fd.png"></image>
+<image wx:else src="https://s3.bmp.ovh/imgs/2021/10/0a0a6ef594cfb40b.png"></image>
+</view>
+<image src="https://s3.bmp.ovh/imgs/2021/10/711ed16e521cf8e8.png" id="eee" bindtap="Again"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/37417e586e3d44e8.png" id="bbb" bindtap="nextpeople"></image>
+
+<image src="https://s3.bmp.ovh/imgs/2021/10/c28864370690bf7a.png" id="eee" bindtap="newGame"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/a04ca9911955858f.png" id="bbb" bindtap="toHome"></image>
+<view id="allpeo">
+<view class="item" wx:for="{{allPeople}}" >{{item}}</view>
+</view>

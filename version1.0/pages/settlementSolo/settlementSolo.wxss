@@ -1,0 +1,50 @@
+/* pages/settlementSolo/settlementSolo.wxss */
+page{
+    background-image: url("https://s3.bmp.ovh/imgs/2021/10/f6e295afb109d2c8.png");
+    background-size: 750rpx 1470rpx;
+}
+#font{
+    display: block;
+    margin: auto auto;
+    margin-top: 20rpx;
+    width: 392rpx;
+    height: 110rpx;
+}
+view{
+    display: block;
+    margin: auto auto;
+    margin-top: 150rpx;
+    font-size: 56rpx;
+    text-align: center;
+    color: rgb(255, 231, 0);
+}
+#six{
+    
+    width: 558rpx;
+    height: 362rpx;
+    margin: auto auto;
+}
+view image{
+    width: 136rpx;
+    height: 136rpx;
+    padding-top: 56rpx;
+    padding-left: 56rpx;
+}
+
+#first{
+    padding-left: 0rpx;
+}
+#aaa{
+    display: block;
+    width: 500rpx;
+    height: 200rpx;
+    margin: auto auto;
+    margin-top: 106rpx;
+}
+#eee{
+    display: block;
+    width: 500rpx;
+    height: 200rpx;
+    margin: auto auto;
+    margin-top: 70rpx;
+}

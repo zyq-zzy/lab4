@@ -1,0 +1,22 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/gameRules/gameRules",
+    "pages/room/room",
+    "pages/solo/solo",
+    "pages/animationSolo/animationSolo",
+    "pages/settlementSolo/settlementSolo",
+    "pages/standAlone/standAlone",
+    "pages/standAloneM/standAloneM",
+    "pages/animationMultiS/animationMultiS",
+    "pages/settlementMultiS/settlementMultiS"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "中秋博饼",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
