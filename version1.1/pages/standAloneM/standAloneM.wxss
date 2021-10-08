@@ -1,0 +1,32 @@
+page{
+    background-image: url("https://s3.bmp.ovh/imgs/2021/10/f6e295afb109d2c8.png");
+    background-size: 750rpx 1470rpx;
+}
+#font{
+    display: block;
+    margin: auto auto;
+    margin-top: 20rpx;
+    width: 392rpx;
+    height: 110rpx;
+}
+#fff{
+    display: block;
+    margin: auto auto;
+    margin-top: 60rpx;
+    width: 224rpx;
+    height: 64rpx;
+}
+#ooo{
+    display: block;
+    margin: auto auto;
+    margin-top: 70rpx;
+    width: 314rpx;
+    height: 314rpx;
+}
+#sss{
+    display: block;
+    margin: auto auto;
+    margin-top: 120rpx;
+    width: 400rpx;
+    height: 200rpx;
+}

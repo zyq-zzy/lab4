@@ -1,0 +1,8 @@
+<!--pages/home/home.wxml-->
+
+<image src="https://s3.bmp.ovh/imgs/2021/10/bfa5251d5f3bc9ab.png" id="font"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/860b4cea40e37a56.png" id="ooo"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/3e924c5b257180bc.png" id="rrr" bindtap="toGameRule"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/dd93381a4c9b71e8.png" id="sss" bindtap="toSolo"></image>
+<image src="https://s3.bmp.ovh/imgs/2021/10/ab1be8d5637a8cfd.png" id="mmm" bindtap="toRoom"></image>
+

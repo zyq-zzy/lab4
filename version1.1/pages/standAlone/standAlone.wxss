@@ -1,0 +1,39 @@
+page{
+    background-image: url("https://s3.bmp.ovh/imgs/2021/10/f66fc3c039f317b6.png");
+    background-size: 750rpx 1470rpx;
+}
+#ooo{
+    display: block;
+    margin: auto auto;
+    margin-top: 338rpx;
+    width: 314rpx;
+    height: 314rpx;
+}
+#font{
+    display: block;
+    margin: auto auto;
+    margin-top: 40rpx;
+    width: 392rpx;
+    height: 110rpx;
+}
+#rrr{
+    display: block;
+    margin: auto auto;
+    margin-top: 40rpx;
+    width: 372rpx;
+    height: 124rpx;
+}
+#sss{
+    display: block;
+    margin: auto auto;
+    margin-top: 46rpx;
+    width: 372rpx;
+    height: 124rpx;
+}
+#mmm{
+    display: block;
+    margin: auto auto;
+    margin-top: 46rpx;
+    width: 372rpx;
+    height: 124rpx;
+}
